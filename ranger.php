@@ -11,3 +11,4 @@ sort($data);
 // var_dump($data);
 $json=json_encode($data);
 file_put_contents("contenu.json", $json); 
+echo $json;
